@@ -12,6 +12,10 @@ The guide is pretty long-winded because I explain things in detail. You may skip
 
 ## Which Fedora fits your head?
 
+There are many different ways to install Fedora. This guide will cover the traditional Fedora versions. Immutable Fedora versions like Silverblue, Kinoite, or Sericea require specialized instructions for how to set them up.
+
+The easiest way to get Fedora is to use Fedora Media Writer to download the disk image you want to use. You can obtain that [here](https://www.fedoraproject.org/en/workstation/download/)
+
 ### Fedora GNOME
 
 You will need a CD or a USB device formatted with a Fedora Disk Image. The main Fedora image uses the GNOME desktop environment. This can be acquired [here](https://www.fedoraproject.org/workstation/).
@@ -36,7 +40,11 @@ A Linux "Rolling-release" distribution is a Linux distro that does not have spec
 
 ## Burning the disk image
 
-So you have your install medium (The USB flash drive, CD, or DVD you are going to use) ready. You removed the files on the storage medium and put them onto your machine. Now that you have the **.iso** file for the version of Fedora you have chosen, you must "burn" it. If you are using a DVD or a CD for whatever reason, you can burn the ISO image using Brasero on Linux, or Windows Explorer on Windows. If you are using a USB Flash drive, you can use **Balena Etcher** to "burn" the ISO file onto your drive in a way that makes it bootable. This software is available [here](https://etcher.balena.io/).
+So you have your install medium (The USB flash drive, CD, or DVD you are going to use) ready. You removed the files on the storage medium and put them onto your machine. Now that you have the **.iso** file for the version of Fedora you have chosen, you must "burn" it.
+
+If you have Fedora Media Writer, you can use that to flash whichever Fedora version you choose onto your disk.
+
+If you are using a DVD or a CD for whatever reason, you can burn the ISO image using Brasero on Linux, or Windows Explorer on Windows. If you are using a USB Flash drive, you can use **Balena Etcher** to "burn" the ISO file onto your drive in a way that makes it bootable. This software is available [here](https://etcher.balena.io/).
 
 New Linux users, "distrohoppers", or advanced users may want to have multiple disk images on a single flash drive. For that, **Ventoy** is a powerful solution. Personally I have had issues getting Fedora ISOs to boot from these, but your mileage may vary. You can download Ventoy [here](https://www.ventoy.net/en/index.html).
 
