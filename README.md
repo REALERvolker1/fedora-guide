@@ -137,6 +137,12 @@ sudo dnf install ffmpeg ffmpeg-devel --allowerasing
 
 # WARNING: Illegal in certain European countries. Only available if you have the tainted repositories enabled
 sudo dnf install libdvdcss
+
+# VA-API (Hardware-accelerated media playback) for intel GPUs and laptops (so you can watch youtube videos without draining your battery with your dedicated GPU or CPU encoding)
+sudo dnf install intel-media-driver
+
+# Nvidia NVENC VA-API driver for Nvidia Desktops
+sudo dnf install nvidia-vaapi-driver
 ```
 
 ## Nvidia/Hardware support
